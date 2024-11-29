@@ -73,7 +73,7 @@ javac *.java
 ```bash
 java -Djava.library.path=. LibrarySystem
 ```
-
+#### ```Run these commands in the same directory where the Java files are located, which is the root directory of the project.```
 ---
 
 ## System Workflow
