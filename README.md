@@ -5,7 +5,7 @@
 - **Saanvi Vishal**
 
 ## Overview
-The **Library Management System** is a robust and efficient solution built with Java and C++ integration, designed to streamline library operations for both administrators and users. It leverages a Java-based user interface, a C++ backend for performance-critical operations, and JNI (Java Native Interface) for seamless communication between the two.
+The **Library Management System** is a robust and efficient solution built with Java and C++ integration, designed to streamline library operations for both administrators and users. It leverages a Java-based user interface, a C++ programs for performance-critical operations, and JNI (Java Native Interface) for seamless communication between the two.
 
 ---
 
@@ -61,6 +61,8 @@ The **Library Management System** is a robust and efficient solution built with 
 g++ -c -fPIC -I"{path_java_directory}/include" -I"{path_java_directory}/include/linux" LibraryManagement.cpp -o LibraryManagement.o
 g++ -shared -o libLibraryManagement.so LibraryManagement.o
 ```
+
+#### ```Replace "{path_java_directory}" with the actual path to the Java directory.```
 
 ### Step 2: Compile Java Files
 ```bash
